@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    
+}
+.logo{
+    width:100%
 }
 .b-img{
     width: 100%;
@@ -78,7 +82,9 @@
 }
  /* top banner end */
 
-  
+ .logo{
+    width:100%
+}
   
 }
 
@@ -97,7 +103,9 @@
 }
  /* top banner end */
 
-  
+ .logo{
+    width:100%
+}
 
 }
 
