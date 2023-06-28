@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
 .b-content{
    width:50% ;
@@ -54,6 +55,28 @@ margin-bottom: 20px;
     width: 80%;
     margin-top: 100px;
 }
-
-
 /* banner end */
+/* logo start */
+.all-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-bottom: 70px;
+   gap: 15px;
+   cursor: pointer;
+   flex-wrap: wrap;
+    width:50%;
+    box-shadow: 0px 0px 10px gray;
+   padding: 15px 20px;
+
+}
+.logo img{
+    width: 84px;
+    height: 25.284px;
+    
+}
+/* logo end*/
