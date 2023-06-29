@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse; 
+    margin-bottom: 30px;
 }
 .logo{
     width:100%
@@ -79,6 +80,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    margin-bottom: 40px;
 }
 .b-img{
     width: 100%;
@@ -182,9 +184,6 @@
  }
 
 }
-
-
-
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
