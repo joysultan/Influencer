@@ -5,8 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse;
-    
+    flex-direction: column-reverse; 
 }
 .logo{
     width:100%
@@ -48,7 +47,28 @@
  .collection{
     grid-template-columns: repeat(1,1fr);
 }
+.see-more{
+    margin-top: 40px;
+}
  /* collection end */
+ .first{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    width: 100%;
+}
+.content{
+    width: 90%;
+}
+.content h1{
+    font-size: 20px;
+}
+.photo img{
+    width: 100%;
+    object-fit: fill;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -93,15 +113,35 @@
   .logo{
      width:100%
  }
+
 /* logo end */
 
 /* collection satart */
 .collection{
     grid-template-columns: repeat(1,1fr);
-   
+}
+.see-more{
+    margin-top: 40px;
 }
 /* collection end */
 
+.first{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    width: 100%;
+}
+.content{
+    width: 90%;
+}
+.content h1{
+    font-size: 25px;
+}
+}
+.photo img{
+    width: 100%;
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -126,22 +166,39 @@
 .collection{
     grid-template-columns: repeat(2,1fr);
 }
-/* collection end */
+.see-more{
+    margin-top: 40px;
 }
+/* collection end */
+
+.photo{
+    width: 50%;
+ }
+ .content{
+    width: 45%;
+ }
+ .content h1{
+    font-size: 21px;
+ }
+
+}
+
+
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
- /* top banner start */
- .b-content h1{
-    font-size:40px
+ .photo{
+    width: 45%;
  }
- .b-img img{
-    margin-top: 50px;
+ .content{
+    width: 45%;
  }
- /* top banner end */
-  
-}
+ .content h1{
+    font-size: 29px;
+ }
 
+}
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px){
   
